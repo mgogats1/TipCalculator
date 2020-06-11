@@ -1,5 +1,5 @@
 //
-//  tipcalculaotr.swift
+//  tipcalculator.swift
 //  TipCalculator
 //
 //  Created by Max Gogats on 6/10/20.
@@ -10,28 +10,20 @@ import Foundation
 import UIKit
 
 class tipCalculator: UIViewController {
-   
-    @IBOutlet var billTotal: UILabel!
+    @IBOutlet var slider: UISlider!
     
-    @IBOutlet var percentage: UILabel!
-    @IBOutlet var percentageSlider: UISlider!
+    @IBOutlet var billAmount: UILabel!
     
-    @IBAction func updateWhenDone(_ sender: Any) {
-        var val = (sender as! UISlider).value
-        var txt = String(val)
-        percentage.text = txt
-        
-    }
+    @IBOutlet var perPerson: UILabel!
+    @IBOutlet var totalBill: UILabel!
+    @IBOutlet var tipAmount: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+        slider.minimumValue = 0
+        slider.maximumValue = 40
+        slider.value = 20
+    
         
-        //let billVC = ViewController()
-        //let billAmount = billVC.billAmount.text!
-       
-        percentageSlider.minimumValue = 0
-        percentageSlider.maximumValue = 40
-        
-        percentageSlider.setValue(20, animated: true)
     }
 }

@@ -60,12 +60,12 @@
 			children = (
 				35772BE62491960000E29C62 /* AppDelegate.swift */,
 				35772BE82491960000E29C62 /* SceneDelegate.swift */,
+				35772BFA249199EA00E29C62 /* tipCalculator.swift */,
 				35772BEA2491960000E29C62 /* ViewController.swift */,
 				35772BEC2491960000E29C62 /* Main.storyboard */,
 				35772BEF2491960200E29C62 /* Assets.xcassets */,
 				35772BF12491960200E29C62 /* LaunchScreen.storyboard */,
 				35772BF42491960200E29C62 /* Info.plist */,
-				35772BFA249199EA00E29C62 /* tipCalculator.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
