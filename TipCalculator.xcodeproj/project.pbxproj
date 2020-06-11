@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351152432492AE6900B1F003 /* individualVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351152422492AE6900B1F003 /* individualVC.swift */; };
 		35772BE72491960000E29C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35772BE62491960000E29C62 /* AppDelegate.swift */; };
 		35772BE92491960000E29C62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35772BE82491960000E29C62 /* SceneDelegate.swift */; };
 		35772BEB2491960000E29C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35772BEA2491960000E29C62 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351152422492AE6900B1F003 /* individualVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = individualVC.swift; sourceTree = "<group>"; };
 		35772BE32491960000E29C62 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35772BE62491960000E29C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35772BE82491960000E29C62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				35772BE62491960000E29C62 /* AppDelegate.swift */,
 				35772BE82491960000E29C62 /* SceneDelegate.swift */,
 				35772BFA249199EA00E29C62 /* tipCalculator.swift */,
+				351152422492AE6900B1F003 /* individualVC.swift */,
 				35772BEA2491960000E29C62 /* ViewController.swift */,
 				35772BEC2491960000E29C62 /* Main.storyboard */,
 				35772BEF2491960200E29C62 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				35772BEB2491960000E29C62 /* ViewController.swift in Sources */,
 				35772BFB249199EA00E29C62 /* tipCalculator.swift in Sources */,
 				35772BE72491960000E29C62 /* AppDelegate.swift in Sources */,
+				351152432492AE6900B1F003 /* individualVC.swift in Sources */,
 				35772BE92491960000E29C62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,15 +292,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N2Y8A564C6;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mdg.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,15 +313,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N2Y8A564C6;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mdg.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

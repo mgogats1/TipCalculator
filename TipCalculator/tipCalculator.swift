@@ -11,15 +11,24 @@ import UIKit
 
 class tipCalculator: UIViewController {
     @IBOutlet var slider: UISlider!
-    
-    @IBOutlet var billAmount: UILabel!
-    
     @IBOutlet var perPerson: UILabel!
-    @IBOutlet var totalBill: UILabel!
     @IBOutlet var tipAmount: UILabel!
+   
+    @IBOutlet var BillFromVC1: UILabel!
+    
+    
+    var billFromOtherVC = "" //contains entered bill amount 
+    var numPplOtherVC = "" //value needed for calculations
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        BillFromVC1.text = billFromOtherVC
+        
+        
         slider.minimumValue = 0
         slider.maximumValue = 40
         slider.value = 20
